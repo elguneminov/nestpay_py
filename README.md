@@ -1,7 +1,7 @@
 # nestpay odeme sistemi ucun modul
 
 
-* `pip install nestpay_py`
+* `pip install nestpay-py`
 
 
 
