@@ -9,7 +9,7 @@
 
 
 
-from nestpay import NestPay
+from payment.nestpay import NestPay
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 

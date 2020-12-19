@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
-Name: nestpay-py
-Version: 0.0.1
+Name: nestpay
+Version: 0.0.2
 Summary: Django nestpay odeme sistemine inteqraciya
 Home-page: https://github.com/CavidRzayev/nestpay_py
 Author: Cavid Rzayev
@@ -10,7 +10,6 @@ Description:
         # nestpay odeme sistemi ucun modul
         
         
-        * `pip install nestpay-py`
         
         
         
@@ -19,7 +18,7 @@ Description:
         
         
         
-        from nestpay import NestPay
+        from payment.nestpay import NestPay
         from django.http import HttpResponse
         from django.views.decorators.csrf import csrf_exempt
         

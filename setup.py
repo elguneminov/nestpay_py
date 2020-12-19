@@ -4,7 +4,7 @@ import sys
 from shutil import rmtree
 import setuptools
 from setuptools import find_packages, setup, Command
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 
 REQUIRED = [
     'requests','django'
@@ -68,8 +68,8 @@ class UploadCommand(Command):
         sys.exit()
 
 setup(
-    name="nestpay_py", # Replace with your own username
-    version="0.0.1",
+    name="nestpay", # Replace with your own username
+    version="0.0.2",
     author="Cavid Rzayev",
     author_email="rzayev592@gmail.com",
     description="Django nestpay odeme sistemine inteqraciya",
