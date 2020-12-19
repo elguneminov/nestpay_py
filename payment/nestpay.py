@@ -3,7 +3,7 @@ import datetime
 import hashlib
 import base64
 import time
-from utils import *
+from .utils import *
 
 
 class NestPay():
@@ -55,24 +55,5 @@ class NestPay():
             return 'Hash values error. Please check parameters posted to 3D secure page.'
         
         
-temp = NestPay(
-    clientId = '', # bank terefinden verilir
-    amount = '', # mebleg : 1.00 azn
-    oid = '', # order id unikdi
-    okUrl = '', # callback url success den sonra bura post gonderilir
-    failUrl = '', # error url 
-    rnd = microtime(),
-    storekey = '2', # bank terefinden verilir
-    storetype = '', # bank terefinden verilir
-    lang = 'en', # hansi dilde odeme sehvesine redirec edecek
-    islemtipi = 'Auth', # default 
-    hash = '', # hash edirik
-    refreshtime = '5', # sehveler arasinda redirect timeout u
-    instalment='', # taksid
-    currency = '944', # Azerbaycan manatinin kodu
-    post_url = 'https://entegrasyon.asseco-see.com.tr/fim/est3Dgate'
-    )
-data = temp.bank_data()
-print(data)
 
 
