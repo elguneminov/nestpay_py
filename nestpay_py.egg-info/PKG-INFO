@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: nestpay-py
+Version: 0.0.1
+Summary: Django nestpay odeme sistemine inteqraciya
+Home-page: https://github.com/CavidRzayev/nestpay_py
+Author: Cavid Rzayev
+Author-email: rzayev592@gmail.com
+License: UNKNOWN
+Description: 
+        # nestpay odeme sistemi ucun modul
+        
+        
+        * `pip install nestpay_py`
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

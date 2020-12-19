@@ -7,7 +7,7 @@ from setuptools import find_packages, setup, Command
 VERSION = '0.0.1'
 
 REQUIRED = [
-    'requests',
+    'requests','django'
 ]
 with open("README.md", "r") as fh:
     long_description = fh.read()
